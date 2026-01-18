@@ -7,6 +7,7 @@ export default withNuxt()
     plugins: {
       prettier: eslintPluginPrettier,
     },
+    ignores: ["**/migrations"],
     rules: {
       'prettier/prettier': 'error',
     },
