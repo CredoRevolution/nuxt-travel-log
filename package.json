@@ -13,11 +13,13 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^7.0.0",
+    "@libsql/client": "^0.17.0",
     "@nuxt/eslint": "^1.12.1",
     "@nuxt/icon": "^2.2.0",
     "@nuxtjs/color-mode": "^4.0.0",
     "@tailwindcss/vite": "^4.1.18",
     "daisyui": "^5.5.14",
+    "drizzle-orm": "^0.45.1",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
     "tailwindcss": "^4.1.18",
@@ -27,8 +29,11 @@
   },
   "devDependencies": {
     "@iconify-json/tabler": "^1.2.26",
+    "dotenv": "^17.2.3",
+    "drizzle-kit": "^0.31.8",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
-    "prettier": "^3.7.4"
+    "prettier": "^3.7.4",
+    "tsx": "^4.21.0"
   }
 }
