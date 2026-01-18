@@ -1,0 +1,25 @@
+<script setup lang="ts">
+const colorMode = useColorMode()
+
+const isDark = computed({
+  get(){
+    return colorMode.value === 'dark'
+  },
+  set(value){
+    colorMode.preference = value ? 'dark' : 'light'
+  }
+})
+</script>
+
+<template>
+  <label class="swap swap-rotate mx-4">
+    <input type="checkbox" v-model="isDark"/>
+    <!-- sun icon -->
+    <Icon class="swap-on" name="tabler:sun" size="24"/>
+
+    <!-- moon icon -->
+    <Icon class="swap-off" name="tabler:moon-filled" size="24"/>
+  </label>
+</template>
+
+<style scoped></style>
