@@ -2,13 +2,16 @@
 </script>
 
 <template>
-  <div class="navbar-start">
-    <div class="navbar bg-primary text-primary-content">
-      <NuxtLink to="/" class="btn btn-ghost text-xl">Travel Log</NuxtLink>
+  <div class="navbar bg-primary text-primary-content">
+    <div class="navbar-start">
+      <div class="navbar bg-primary text-primary-content">
+        <NuxtLink to="/" class="btn btn-ghost text-xl">Travel Log</NuxtLink>
+      </div>
     </div>
-  </div>
-  <div class="navbar-end">
-    <button class="btn btn-accent">Sign In With GitHub<Icon name="tabler:brand-github" size="24"/></button>
+    <div class="navbar-end">
+      <AppThemeToggle/>
+      <a class="btn btn-accent">Sign In With GitHub<Icon name="tabler:brand-github" size="24"/></a>
+    </div>
   </div>
 </template>
 
