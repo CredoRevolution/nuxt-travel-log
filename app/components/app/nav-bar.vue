@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="navbar-end">
-      <AppThemeToggle/>
+      <AppThemeToggle />
       <a class="btn btn-accent">Sign In With GitHub<Icon name="tabler:brand-github" size="24"/></a>
     </div>
   </div>
