@@ -8,7 +8,8 @@ import AuthButton from '~/components/auth-button.vue'
       <div class="max-w-md">
         <h1 class="text-5xl font-bold">Travel Log</h1>
         <p class="py-6">
-          Keep track of your travels and adventures with this simple travel log app. Add locations, photos, and notes to create a digital journal of your journeys.
+          Keep track of your travels and adventures with this simple travel log app. Add locations,
+          photos, and notes to create a digital journal of your journeys.
         </p>
         <AuthButton />
       </div>

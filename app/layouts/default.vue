@@ -2,9 +2,9 @@
 
 <template>
   <div class="flex min-h-screen flex-col">
-    <AppNavBar/>
+    <AppNavBar />
     <main>
-      <slot/>
+      <slot />
     </main>
   </div>
 </template>
