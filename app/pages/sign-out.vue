@@ -1,0 +1,15 @@
+<script lang="ts" setup>
+const authStore = useAuthStore()
+
+onMounted(() => {
+  authStore.signOut()
+})
+</script>
+
+<template>
+  <div
+    class="card bg-base-300 container mt-4 max-h-72 min-h-72 text-center mx-auto flex flex-col gap-4 justify-center items-center"
+  >
+    <span class="loading loading-spinner loading-xl"></span>
+  </div>
+</template>
